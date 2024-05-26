@@ -1,5 +1,6 @@
 import React from "react";
 import DepartureDetails from "./DepartureDetails/DepartureDetails";
+import FlightSegment from "./FlightSegment/FlightSegment";
 
 const Main = () => {
   return (
@@ -28,6 +29,8 @@ const Main = () => {
           </div>
         </div>
         {/* departure section */}
+        <DepartureDetails />
+        <FlightSegment />
         <DepartureDetails />
       </div>
     </div>
