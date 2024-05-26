@@ -11,12 +11,12 @@ const Main = () => {
     <div>
       <div className="pb-[20px] pl-[24px]">
         <div className="text-[#5A6573]">
-          <span className="text-[13px]">Home</span>{" "}
-          <span className="text-[13px]">&gt;</span>{" "}
-          <span className="text-[13px]">Booking History</span>{" "}
-          <span className="text-[13px]">&gt;</span>{" "}
-          <span className="text-[13px]">Flight</span>{" "}
-          <span className="text-[13px]">&gt;</span>{" "}
+          <span className="text-[13px] mr-[6px]">Home</span>{" "}
+          <span className="text-[13px] mr-[6px]">&gt;</span>{" "}
+          <span className="text-[13px] mr-[6px]">Booking History</span>{" "}
+          <span className="text-[13px] mr-[6px]">&gt;</span>{" "}
+          <span className="text-[13px] mr-[6px]">Flight</span>{" "}
+          <span className="text-[13px] mr-[6px]">&gt;</span>{" "}
           <span className="text-[#1882FF] text-[13px] font-[475]">
             STFL17121182045413
           </span>{" "}
