@@ -1,6 +1,9 @@
 import React from "react";
 import DepartureDetails from "./DepartureDetails/DepartureDetails";
 import FlightSegment from "./FlightSegment/FlightSegment";
+import Destination from "./Destination/Destination";
+import DestinationEndPoint from "./DestinationEndPoint/DestinationEndPoint";
+import Layover from "./Layover/Layover";
 
 const Main = () => {
   return (
@@ -31,7 +34,9 @@ const Main = () => {
         {/* departure section */}
         <DepartureDetails />
         <FlightSegment />
-        <DepartureDetails />
+        <Layover />
+        <Destination />
+        <DestinationEndPoint />
       </div>
     </div>
   );

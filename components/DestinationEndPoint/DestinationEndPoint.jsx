@@ -1,18 +1,18 @@
-import { LocationIcon } from "@/utils/icons/UseIcons";
+import { BlueLocationIcon } from "@/utils/icons/UseIcons";
 import React from "react";
 
-const DepartureDetails = () => {
+const DestinationEndPoint = () => {
   return (
-    <div className="flex items-center pt-[20px] pl-[16px]">
+    <div className="flex items-center pt-[5px] pl-[16px]">
       {/* location icon */}
       <div>
-        <LocationIcon />
+        <BlueLocationIcon />
       </div>
       {/* route details */}
       <div className="flex justify-between items-center leading-[1.125rem] rounded-[6px] bg-[#F5F7FA] w-full h-[40px] mr-[16px] pt-[10px] pl-[16px] pb-[12px] pr-[16px]">
-        <h5 className="font-[475] text-[#1A2B3D] ">Departure from Dhaka</h5>
+        <h5 className="font-[475] text-[#1A2B3D] ">Destination at New York</h5>
         <h6 className="text-[#5A6573] font-[400]">
-          <span className="font-[475]">Terminal 1:</span> Hazrat Shahjalal
+          <span className="font-[475]">Terminal 4:</span>John F Kennedy
           International Airport
         </h6>
       </div>
@@ -20,4 +20,4 @@ const DepartureDetails = () => {
   );
 };
 
-export default DepartureDetails;
+export default DestinationEndPoint;
