@@ -1,4 +1,8 @@
-import { DubaiAirlinesIcon, FlightIcon } from "@/utils/icons/UseIcons";
+import {
+  AlerttIcon,
+  DubaiAirlinesIcon,
+  FlightIcon,
+} from "@/utils/icons/UseIcons";
 import React from "react";
 
 const FlightSegment = () => {
@@ -11,13 +15,13 @@ const FlightSegment = () => {
           <DubaiAirlinesIcon />
         </div>
         {/* path image */}
-        <div class="border-l-2 border-gray-300 h-20"></div>
+        <div class="border-l-2 border-gray-300 h-[53px] mb-[9px]"></div>
         {/* airlines image */}
         <div>
           <FlightIcon />
         </div>
         {/* path image */}
-        <div class="border-l-2 border-gray-300 h-20"></div>
+        <div class="border-l-[2px] border-gray-300 h-[53px] mt-[9px]"></div>
       </div>
 
       <div>
@@ -50,7 +54,8 @@ const FlightSegment = () => {
           </div>
         </div>
         {/* alert information */}
-        <div className="flex justify-between items-center leading-[1.125rem] rounded-[6px] ml-[12px] bg-[#FFEEDB] w-full h-[52px] mt-[16px] pt-[10px] pl-[16px] pb-[12px] pr-[16px]">
+        <div className="flex justify-between items-center leading-[1.125rem] border-[#FFE1C2] border-[1px] rounded-[6px] ml-[12px] bg-[#FFEEDB] w-full h-[52px] mt-[16px] pt-[10px] pl-[16px] pb-[12px] pr-[16px]">
+          <AlerttIcon />
           <h5 className="font-[475] text-[#1A2B3D] ">
             Technical stoppage at Malpensa International Airport (Milano).
             Before booking this flight please check your visa requirements as
