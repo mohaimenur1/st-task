@@ -7,7 +7,7 @@ import React from "react";
 
 const Destination = () => {
   return (
-    <div className="flex pt-[20px] ml-[20px]">
+    <div className="flex pt-[15px] ml-[20px]">
       {/* flight segment */}
       <div className="flex flex-col items-center">
         {/* airlines image */}
@@ -41,7 +41,7 @@ const Destination = () => {
           </div>
         </div>
         {/* airlines details */}
-        <div class="flex justify-between w-[680px] text-sm text-gray-600 mt-4 ml-[12px]">
+        <div class="flex justify-between w-[680px] text-sm text-gray-600 mt-4 ml-[16px]">
           <div>
             <div class="font-semibold">Turkish Airlines</div>
             <div>Flight no: TUR467</div>

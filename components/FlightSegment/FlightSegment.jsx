@@ -24,7 +24,7 @@ const FlightSegment = () => {
         <div class="border-l-[2px] border-gray-300 h-[53px] mt-[9px]"></div>
       </div>
 
-      <div>
+      <div className="flex-1">
         {/* flight time */}
         <div className="flex justify-between w-[1100px] ml-[12px]">
           <div>
@@ -54,9 +54,11 @@ const FlightSegment = () => {
           </div>
         </div>
         {/* alert information */}
-        <div className="flex justify-between items-center leading-[1.125rem] border-[#FFE1C2] border-[1px] rounded-[6px] ml-[12px] bg-[#FFEEDB] w-full h-[52px] mt-[16px] pt-[10px] pl-[16px] pb-[12px] pr-[16px]">
-          <AlerttIcon />
-          <h5 className="font-[475] text-[#1A2B3D] ">
+        <div className="flex items-center leading-[1.125rem] border-[#FFE1C2] border-[1px] rounded-[6px] bg-[#FFEEDB] h-[52px] mt-[16px] mr-[16px] pt-[10px] pl-[16px] pb-[12px] pr-[16px]">
+          <div className="mr-[8px]">
+            <AlerttIcon />
+          </div>
+          <h5 className="font-[400] text-[#1A2B3D] text-[12px] w-[712px]">
             Technical stoppage at Malpensa International Airport (Milano).
             Before booking this flight please check your visa requirements as
             per your nationality

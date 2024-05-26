@@ -4,12 +4,23 @@ import FlightSegment from "./FlightSegment/FlightSegment";
 import Destination from "./Destination/Destination";
 import DestinationEndPoint from "./DestinationEndPoint/DestinationEndPoint";
 import Layover from "./Layover/Layover";
+import { DotIcon } from "@/utils/icons/UseIcons";
 
 const Main = () => {
   return (
     <div>
       <div className="pb-[20px] pl-[24px]">
-        Home &gt; Booking History &gt; Flight &gt; STFL17121182045413{" "}
+        <div className="text-[#5A6573]">
+          <span className="text-[13px]">Home</span>{" "}
+          <span className="text-[13px]">&gt;</span>{" "}
+          <span className="text-[13px]">Booking History</span>{" "}
+          <span className="text-[13px]">&gt;</span>{" "}
+          <span className="text-[13px]">Flight</span>{" "}
+          <span className="text-[13px]">&gt;</span>{" "}
+          <span className="text-[#1882FF] text-[13px] font-[475]">
+            STFL17121182045413
+          </span>{" "}
+        </div>
       </div>
       <div className="bg-[#FFFFFF] h-[611px] ml-[24px] rounded-[8px]">
         {/* second section */}
@@ -21,8 +32,16 @@ const Main = () => {
             </div>
             <div>
               <h5 className="font-[600] text-[18px]">DAC → JFK</h5>
-              <p className="text-[#5A6573] text-[13px]">
-                Round Trip . 25 Mar - 4 Apr 2023 . 1 Stop
+              <p className="text-[#5A6573] text-[13px] flex items-center ">
+                <span className="mr-[7.5px]">Round Trip</span>{" "}
+                <span className="mr-[7.5px]">
+                  <DotIcon />
+                </span>{" "}
+                <span className="mr-[7.5px]">25 Mar - 4 Apr 2023</span>{" "}
+                <span className="mr-[7.5px]">
+                  <DotIcon />
+                </span>{" "}
+                <span>1 Stop</span>
               </p>
             </div>
           </div>

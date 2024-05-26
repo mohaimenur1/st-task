@@ -3,7 +3,7 @@ import React from "react";
 
 const Layover = () => {
   return (
-    <div className="flex items-center pt-[20px] pl-[16px]">
+    <div className="flex items-center pt-[2px] pl-[16px]">
       {/* location icon */}
       <div>
         <LocationIcon />
