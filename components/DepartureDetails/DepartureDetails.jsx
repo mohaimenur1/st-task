@@ -13,9 +13,9 @@ const DepartureDetails = () => {
         <h5 className="font-[475] text-[#1A2B3D] text-[13px]">
           Departure from Dhaka
         </h5>
-        <h6 className="text-[#5A6573] font-[400]">
-          <span className="font-[475]">Terminal 1:</span> Hazrat Shahjalal
-          International Airport
+        <h6 className="text-[#5A6573] font-[400] text-[13px]">
+          <span className="font-[475] text-[13px]">Terminal 1:</span> Hazrat
+          Shahjalal International Airport
         </h6>
       </div>
     </div>
