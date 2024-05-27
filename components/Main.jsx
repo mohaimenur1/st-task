@@ -22,7 +22,7 @@ const Main = () => {
           </span>{" "}
         </div>
       </div>
-      <div className="bg-[#FFFFFF] h-[611px] ml-[24px] rounded-[8px]">
+      <div className="bg-[#FFFFFF] h-[611px] w-[840px] ml-[24px] rounded-[8px]">
         {/* second section */}
         <div className="flex justify-between items-center p-[16px] border-b-2 border-[#F5F7FA]">
           {/* destination info */}

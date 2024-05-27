@@ -24,9 +24,9 @@ const Destination = () => {
         <div className="border-l-[2px] border-gray-300 h-[19px] mt-[9px]"></div>
       </div>
 
-      <div>
+      <div className="flex-1">
         {/* flight time */}
-        <div className="flex justify-between w-[1120px] ml-[12px]">
+        <div className="grid grid-cols-3 gap-3 ml-[12px]">
           <div>
             <div className="font-bold">DAC - DXB</div>
             <div className="text-sm text-gray-600">12 hr 20 min</div>
@@ -41,7 +41,7 @@ const Destination = () => {
           </div>
         </div>
         {/* airlines details */}
-        <div className="flex justify-between w-[680px] text-sm text-gray-600 mt-4 ml-[16px]">
+        <div className="grid grid-cols-3 gap-3 ml-[12px] mt-[16px]">
           <div>
             <div className="font-semibold">Turkish Airlines</div>
             <div>Flight no: TUR467</div>
