@@ -4,4 +4,6 @@
 
 body {
   background: #ebf0f5;
+  height: 100%;
+  margin: 0 auto;
 }

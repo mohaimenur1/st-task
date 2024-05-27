@@ -26,20 +26,6 @@ const FlightSegment = () => {
 
       <div className="flex-1">
         {/* flight time */}
-        {/* <div className="flex justify-between w-[1120px] ml-[12px]">
-          <div>
-            <div className="font-bold">DAC - DXB</div>
-            <div className="text-sm text-gray-600">12 hr 20 min</div>
-          </div>
-          <div>
-            <div className="text-lg font-bold">07:30 PM</div>
-            <div className="text-sm text-gray-600">28 Mar, Friday</div>
-          </div>
-          <div>
-            <div className="text-lg font-bold">08:50 AM</div>
-            <div className="text-sm text-gray-600">29 Mar, Saturday</div>
-          </div>
-        </div> */}
         <div class="grid grid-cols-3 gap-3 ml-[12px]">
           <div>
             <div className="font-bold">DAC - DXB</div>

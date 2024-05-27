@@ -13,11 +13,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={murecho.className}>
+      <body className={`${murecho.className}`}>
         <Navbar />
-        <div className="flex mx-[164px] my-0 pt-[16px]">
-          <Sidebar />
-          <main className="w-full">{children}</main>
+        <div className="flex items-center justify-center">
+          <div className="flex justify-center items-center h-full pt-[16px]">
+            <Sidebar />
+            <main className="w-full">{children}</main>
+          </div>
         </div>
       </body>
     </html>
